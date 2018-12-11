@@ -37,6 +37,8 @@
             this.txtOutputFile = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtCertPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // openFileDialog
@@ -51,7 +53,7 @@
             this.txtCertFiles.Location = new System.Drawing.Point(12, 21);
             this.txtCertFiles.Name = "txtCertFiles";
             this.txtCertFiles.ReadOnly = true;
-            this.txtCertFiles.Size = new System.Drawing.Size(695, 275);
+            this.txtCertFiles.Size = new System.Drawing.Size(695, 246);
             this.txtCertFiles.TabIndex = 0;
             this.txtCertFiles.Text = "";
             // 
@@ -117,11 +119,30 @@
             this.saveFileDialog.Filter = "Cert files|*.pfx;*.p12";
             this.saveFileDialog.Title = "Specify your file to save";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 277);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 12);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Cert password";
+            // 
+            // txtCertPassword
+            // 
+            this.txtCertPassword.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtCertPassword.Location = new System.Drawing.Point(12, 292);
+            this.txtCertPassword.Name = "txtCertPassword";
+            this.txtCertPassword.Size = new System.Drawing.Size(695, 19);
+            this.txtCertPassword.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtCertPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtOutputFile);
             this.Controls.Add(this.btnBrowseOutputFile);
@@ -131,7 +152,7 @@
             this.Controls.Add(this.txtCertFiles);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Merge Certs";
+            this.Text = "Merge Certs | FPT-Nghiaduc_Hoang@jmas.co.jp";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,6 +169,8 @@
         private System.Windows.Forms.TextBox txtOutputFile;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.SaveFileDialog saveFileDialog;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtCertPassword;
     }
 }
 

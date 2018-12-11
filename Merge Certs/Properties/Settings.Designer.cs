@@ -45,5 +45,17 @@ namespace Merge_Certs.Properties {
                 this["TargetCertFilePath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string CertPassword {
+            get {
+                return ((string)(this["CertPassword"]));
+            }
+            set {
+                this["CertPassword"] = value;
+            }
+        }
     }
 }
