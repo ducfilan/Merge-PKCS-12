@@ -1,0 +1,10 @@
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\bin\Debug\Merge Certs.exe.config
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\bin\Debug\Merge Certs.exe
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\bin\Debug\Merge Certs.pdb
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\obj\Debug\Merge Certs.csprojAssemblyReference.cache
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\obj\Debug\Merge_Certs.Form1.resources
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\obj\Debug\Merge_Certs.Properties.Resources.resources
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\obj\Debug\Merge Certs.csproj.GenerateResource.cache
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\obj\Debug\Merge Certs.csproj.CoreCompileInputs.cache
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\obj\Debug\Merge Certs.exe
+C:\Users\1465\source\repos\Merge Certs\Merge Certs\obj\Debug\Merge Certs.pdb
